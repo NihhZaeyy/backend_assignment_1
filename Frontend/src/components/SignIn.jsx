@@ -33,7 +33,7 @@ const SignIn = () => {
           </form>
         </div>
         <div className="mt-4 flex justify-center items-center gap-2">
-          <button onClick={() => navigateToRegisterPage('/')} className="px-4 py-2 rounded-lg bg-green-700 text-white">
+          <button onClick={() => navigateToRegisterPage('/register')} className="px-4 py-2 rounded-lg bg-green-700 text-white">
             Register
           </button>
           <button className="px-4 py-2 rounded-lg bg-green-700 text-white">
