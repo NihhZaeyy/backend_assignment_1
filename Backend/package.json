@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "migrateknex": "knex migrate:latest --knexfile src/knexmodel/knexfile.js"
+
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,9 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mysql": "^2.18.1"
+    "knex": "^3.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
